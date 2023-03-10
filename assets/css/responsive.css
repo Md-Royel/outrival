@@ -1,0 +1,87 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        padding: 10px 15px;
+    }
+    .hero-text h2 {
+        font-size: 75px;
+    }
+    .shape-2 {
+        width: 700px;
+    }
+    .section-title h3, .marketing-text h4 {
+        font-size: 23px;
+    }
+    img.thumb-top {
+        top: 100px;
+    }
+    img.thumb-bottom {
+        right: 20px;
+        bottom: 20px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        padding-top: 0;
+    }
+    .hero-text h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .shape-2 {
+        width: 520px;
+    }
+    img.thumb-top {
+        top: 150px;
+        left: -70px;
+    }
+    img.thumb-bottom {
+        right: 70px;
+        bottom: 90px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hero-area {
+        padding-top: 0;
+    }
+    .hero-text h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .hero-shap {
+        overflow: hidden;
+    }
+    .shape-2 {
+        position: relative;
+    }
+    .section-title h3, .marketing-text h4 {
+        font-size: 30px;
+    }
+    img.thumb-bottom {
+        right: 25px;
+    }
+    img.shape-1 {
+        display: none;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

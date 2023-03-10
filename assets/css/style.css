@@ -1,0 +1,304 @@
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('../fonts/MonumentExtended-Ultrabold.eot');
+    src: url('../fonts/MonumentExtended-Ultrabold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MonumentExtended-Ultrabold.woff2') format('woff2'),
+        url('../fonts/MonumentExtended-Ultrabold.woff') format('woff'),
+        url('../fonts/MonumentExtended-Ultrabold.ttf') format('truetype'),
+        url('../fonts/MonumentExtended-Ultrabold.svg#MonumentExtended-Ultrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #020C13;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Monument Extended';
+	font-weight: 800;
+	color: #fff;
+	margin-top: 0px;
+	font-style: normal;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 37.5px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+/* header-area */
+.header-area {
+    padding: 40px 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+	transition: .4s;
+}
+.main-menu ul li a:hover{
+	background: -webkit-linear-gradient(236.96deg, #F55F29 13.69%, #FDC221 99.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.t-btn {
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+	background: -webkit-linear-gradient(236.96deg, #F55F29 13.69%, #FDC221 99.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+/* hero-area */
+.hero-area {
+    padding-top: 60px;
+}
+.hero-text h2 {
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 118px;
+}
+.hero-text h2 span{
+	background: -webkit-linear-gradient(236.96deg, #FDC221 13.69%, #F55F29 23.24%, #A916EB 48.27%, #590FFE 75.44%, #1DC6E8 101.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-shap {
+    position: relative;
+	margin-top: -70px;
+}
+
+.shape-2 {
+    position: absolute;
+    right: 0;
+    width: 850px;
+}
+
+.section-title h3 {
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.section-title h3 span{
+	background: -webkit-linear-gradient(236.96deg, #F55F29 13.69%, #FDC221 99.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* marketing-area */
+.marketing-text h4 {
+    font-size: 37px;
+}
+
+.marketing-text p {
+    font-weight: 400;
+}
+
+.marketing-text span {
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+.marketing-thumb img {
+    width: 100%;
+}
+
+.marketing-thumb {
+    position: relative;
+}
+
+img.thumb-top {
+    position: absolute;
+    width: auto;
+    top: 130px;
+    left: -100px;
+}
+img.thumb-bottom {
+    position: absolute;
+    width: auto;
+    right: 40px;
+    bottom: 40px;
+}
+/* slider-area */
+.slider-area {
+    padding: 80px 0;
+}
+.slider-list .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+}
+
+.slider-list .owl-nav .owl-next {
+    margin-left: 20px;
+
+}
+.slider-list .owl-nav .owl-prev i {
+	color: #676D71;
+
+}
+.slider-list .owl-nav .owl-next i {
+	background: -webkit-linear-gradient(236.96deg, #FDC221 13.69%, #F55F29 23.24%, #A916EB 48.27%, #590FFE 75.44%, #1DC6E8 101.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.slider-list .owl-nav button i {
+    font-size: 20px;
+    color: red;
+}
+.slider-list .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+.slider-list .owl-dots button {
+    width: 20px;
+    height: 3px;
+    background: #676D71;
+    margin: 2px;
+}
+.slider-list .owl-dots button.owl-dot.active{
+	background: linear-gradient(236.96deg, #F55F29 13.69%, #FDC221 99.79%);
+}
+
+/* heartbeat-animation */
+
+.heartbeat {
+
+	animation: heartbeat 1s infinite alternate;
+
+}
+
+@-webkit-keyframes heartbeat {
+
+	to {
+
+		-webkit-transform: scale(1.1);
+
+		transform: scale(1.1);
+
+	}
+
+}
